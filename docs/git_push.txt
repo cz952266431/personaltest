@@ -1,0 +1,2 @@
+git push origin chenzhou01:master == git push origin chenzhou01:refs/heads/master
+提交本地分支chenzhou01到远端机器origin上的master分支
