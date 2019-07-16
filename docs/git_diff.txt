@@ -1,0 +1,4 @@
+git diff commitid1...commitid2	后面的分支和两个分支的公共祖先比较，前者必须的提交时间必须早于后者
+git diff commitid1..commitid2	比较两个分支，以第一个分支为基线
+
+
