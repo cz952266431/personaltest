@@ -1,0 +1,5 @@
+git checkout -b chenzhou01	基于当前所在分支创建chenzhou01，假如当前所在分支为chenzhou02，那么创建chenzhou01分支代码和chenzhou02一样
+
+git checkout -b chenzhou01 chenzhou03	指定基于chenzhou03分支创建chenzhou01分支
+
+
