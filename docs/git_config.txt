@@ -1,0 +1,10 @@
+git config --global	设置全局配置，针对该用户的所有项目
+			不加global，针对当前项目，配置的优先级高于全局配置
+
+修改邮箱，新建分支，push，此时0个文件被提交，不会生成新的commitid。所以邮箱配置依然没有传给远端
+修改邮箱，改一处无关紧要的地方，git add，git commit，git push，远端会从新的commitid中获取邮箱
+
+注意：
+git commit 才会生成新的版本号(commitid)
+git add filename之后，再git commit。此时用git log就可以查看版本号
+
