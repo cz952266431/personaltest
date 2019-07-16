@@ -1,0 +1,13 @@
+git fetch origin master		取回origin主机的master分支,在本地主机上要用"远程主机名/分支名"的形式读取。如使用origin/master读取
+
+git fetch origin master
+git checkout -b chenzhou origin/master	基于origin/master创建分支chenzhou
+
+git fetch origin master:chenzhou01	origin主机上的master分支映射到本地chenzhou01分支上，如果chenzhou01分支不存在，会创建分支
+
+git fetch origin master:chenzhou01 == git fetch origin master:refs/heads/chenzhou01
+
+注意：不能直接将远程分支映射到当前所在的分支（当前分支在chenzhou01）
+git fetch origin master:chenzhou01
+fatal: Refusing to fetch into current branch refs/heads/chenzhou01 of non-bare repository
+
