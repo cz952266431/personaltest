@@ -8,3 +8,10 @@ git config --global	设置全局配置，针对该用户的所有项目
 git commit 才会生成新的版本号(commitid)
 git add filename之后，再git commit。此时用git log就可以查看版本号
 
+# 密码缓存设置
+git config --global credential.helper cache	密码缓存在内存中，默认缓存15分钟
+git config --global credential.helper cache --timeout=3600	缓存1小时
+git config --global credential.helper store	密码缓存在文件中，记录在 ~/.git
+git config --global credential.helper wincred	如果安装的是GitGUI，则提供的是git-credential-manager
+
+
