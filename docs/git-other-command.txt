@@ -1,0 +1,9 @@
+git cat-file -p commit_id
+
+git cat-file -p 2fbb7113519edf9aa529b17c2eb8a311b8a266da
+tree 87f4048b7eef8e7b9e9af33db36aa5dd63a14c3c           # 目录树，往下查找可以找到文件
+parent deef72f74a4d9b8353f9ab9ca2ee31213c6a4fef         # 父节点
+author chenzhou <952266431@qq.com> 1563368669 +0800     # 作者
+committer chenzhou <952266431@qq.com> 1563368669 +0800  # 提交人
+
+git config 更新     # 提交描述
