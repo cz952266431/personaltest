@@ -1,0 +1,8 @@
+git remote | awk 'NR==0 {print}'    # 读取行号为1的一行(行号从1开始)
+
+git remote | awk '{print $1}'       # 打印第一列的内容，$0代表所有内容
+
+awk '条件  输出' file
+awk '$1!="git" {print $1}' README.md
+
+
