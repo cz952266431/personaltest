@@ -1,0 +1,21 @@
+git remote      # 查看远端主机名
+
+git remote -v   # 查看详细信息
+origin  https://github.com/cz952266431/personaltest.git (fetch)
+origin  https://github.com/cz952266431/personaltest.git (push)
+
+git remote add 新主机名 url(git仓库地址)
+****************************************************************
+git remote add chen https://github.com/cz952266431/compiler.git
+
+chenzhou    https://github.com/cz952266431/compiler.git (fetch)
+chenzhou    https://github.com/cz952266431/compiler.git (push)
+origin  https://github.com/cz952266431/personaltest.git (fetch)
+origin  https://github.com/cz952266431/personaltest.git (push)
+****************************************************************
+
+总结：origin主机名其实只是仓库地址的别名
+      git fetch origin master
+      即是从origin对应的url仓库地址的master分之上拉取代码
+
+
